@@ -1,0 +1,186 @@
+module.exports = {
+  title: "CEU Mass Mediator",
+  description: 'Official Documentation',
+  themeConfig: {
+    sidebar: [
+      ['/', 'Home Page'],
+      {
+        title: 'Introduction',
+        collapsable: false,
+        children: [
+          // ['/introduction/', 'Introduction'],
+          ['/introduction/system_requirements/', 'System Requirements'],
+        ]
+      },
+      {
+        title: 'Peak Search',
+        collapsable: true,
+        children: [
+          ['/peak_search/simple_search/', 'Simple Search'],
+          ['/peak_search/advanced_search/', 'Advanced Search'],
+          ['/peak_search/batch_search/', 'Batch Search'],
+          ['/peak_search/batch_advanced_search/', 'Batch Advanced Search'],
+          ['/peak_search/annotations_rules/', 'Annotations Rules'],
+          ['/peak_search/submit_menu/', 'Submit Menu'],
+          ['/peak_search/result_list/', 'Result List'],
+        ]
+      },
+      {
+        title: 'Browse Search',
+        collapsable: false,
+        children: [
+          '',
+          'regular-expressions',
+          'escape-characters',
+          'browse-search-results'
+        ]
+      },
+      {
+        title: 'Oxidised Lipids',
+        collapsable: true,
+        children: [
+          ['/oxidised_lipids/long_chain_oxidised_lipids/', 'Long chain oxidised lipids'],
+          ['/oxidised_lipids/short_chain_oxidised_lipids/', 'Short chain oxidised lipids'],
+        ]
+      },
+      {
+        title: 'Spectra Quality Controller',
+        collapsable: true,
+        children: [
+          ['/spectra_quality_controller/partial_scores/', 'Partial scores'],
+          ['/spectra_quality_controller/overall_score/', 'Overall score'],
+        ]
+      },
+      {
+        title: 'Pathway Displayer',
+        collapsable: true,
+        children: [
+          ['/pathway_displayer/file_structure/', 'File structure'],
+          ['/pathway_displayer/result_list_for_pathways/', 'Result list for pathways'],
+        ]
+      },
+      {
+        title: 'MS/MS Search',
+        collapsable: true,
+        children: [
+          ['/msms_search/results_msms_search/', 'Results MS/MS Search'],
+        ]
+      },
+      {
+        title: 'LC/MS Search grouped by RT',
+        collapsable: true,
+        children: [
+          ['/lcms_search_grouped_by_rt/result_lcms_search/', 'Result LC-MS Search'],
+        ]
+      },
+      {
+        title: 'RESTful API',
+        collapsable: true,
+        children: [
+          ['/restful_api/batch_search/', 'Batch search'],
+          ['/restful_api/batch_advanced_search/', 'Batch advanced search'],
+          ['/restful_api/browse_search/', 'Browse Search'],
+          ['/restful_api/msms_search/', 'MS/MS Search'],
+          ['/restful_api/long_chain_oxidation_search/', 'Long Chain Oxidation Search'],
+          ['/restful_api/short_chain_oxidation_search/', 'Short Chain Oxidation Search'],
+          ['/restful_api/spectral_quality_controller/', 'Spectral Quality Controller'],
+          ['/restful_api/pathway_displayer/', 'Pathway Displayer'],
+        ]
+      },
+      {
+        title: 'R library',
+        collapsable: true,
+        children: [
+          ['/r_library/installation/', 'Installation'],
+          ['/r_library/example/', 'Example'],
+        ]
+      },
+    ],
+    nav: [
+      { text: 'Home Page', link: '/' },
+      {
+        text: 'Introduction',
+        items: [
+          { text: 'System Requirements', link: '/introduction/system_requirements/' },
+        ]
+
+      },
+      {
+        text: 'Peak Search',
+        items: [
+          { text: 'Simple Search', link: '/peak_search/simple_search/' },
+          { text: 'Advanced Search', link: '/peak_search/advanced_search/' },
+          { text: 'Batch Search', link: '/peak_search/batch_search/' },
+          { text: 'Batch Advanced Search', link: '/peak_search/batch_advanced_search/' },
+          { text: 'Annotations Rules', link: '/peak_search/annotations_rules/' },
+          { text: 'Submit Menu', link: '/peak_search/submit_menu/' },
+          { text: 'Result List', link: '/peak_search/result_list/' },
+        ]
+      },
+      {
+        text: 'Browse Search',
+        items: [
+          { text: 'Regular expressions', link: '/browse_search/regular_expressions/' },
+          { text: 'Escape characters', link: '/browse_search/escape_characters/' },
+          { text: 'Browse search results', link: '/browse_search/browse_search_results/' },
+
+        ]
+      },
+      {
+        text: 'Oxidised Lipids',
+        items: [
+          { text: 'Long chain oxidised lipids', link: '/oxidised_lipids/long_chain_oxidised_lipids/' },
+          { text: 'Short chain oxidised lipids', link: '/oxidised_lipids/short_chain_oxidised_lipids/' },
+        ]
+      },
+      {
+        text: 'Spectra Quality Controller',
+        items: [
+          { text: 'Partial scores', link: '/spectra_quality_controller/partial_scores/' },
+          { text: 'Overall score', link: '/spectra_quality_controller/overall_score/' },
+        ]
+      },
+      {
+        text: 'Pathway Displayer',
+        items: [
+          { text: 'File structure', link: '/pathway_displayer/file_structure/' },
+          { text: 'Result list for pathways', link: '/pathway_displayer/result_list_for_pathways/' },
+        ]
+      },
+      {
+        text: 'MS/MS Search',
+        items: [
+          { text: 'Results MS/MS Search', link: '/msms_search/results_msms_search/' },
+        ]
+      },
+      {
+        text: 'LC/MS Search grouped by RT',
+        items: [
+          { text: 'Result LC-MS Search', link: '/lcms_search_grouped_by_rt/result_lcms_search/' },
+        ]
+      },
+      {
+        text: 'RESTful API',
+        items: [
+          { text: 'Batch search', link: '/restful_api/batch_search/' },
+          { text: 'Batch advanced search', link: '/restful_api/batch_advanced_search/' },
+          { text: 'Browse Search', link: '/restful_api/browse_search/' },
+          { text: 'MS/MS Search', link: '/restful_api/msms_search/' },
+          { text: 'Long Chain Oxidation Search', link: '/restful_api/long_chain_oxidation_search/' },
+          { text: 'Short Chain Oxidation Search', link: '/restful_api/short_chain_oxidation_search/' },
+          { text: 'Spectral Quality Controller', link: '/restful_api/spectral_quality_controller/' },
+          { text: 'Pathway Displayer', link: '/restful_api/pathway_displayer/' },
+
+        ]
+      },
+      {
+        text: 'R library',
+        items: [
+          { text: 'Installation', link: '/r_library/installation/' },
+          { text: 'Example', link: '/r_library/example/' },
+        ]
+      },
+    ]
+  }
+}
+

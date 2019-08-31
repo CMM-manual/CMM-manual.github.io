@@ -1,0 +1,3 @@
+# Peak search
+
+Peak Search allows the user to find metabolites based on the neutral or the m/z mass within a certain tolerance (ppm or mDa -default tolerance: 10 ppm-). CMM provides researchers with different types of search, depending on what information they want to use for performing the metabolite annotation and depending on whether they want to look for multiple compounds or just one. Some of them include a field called [Composite Spectrum (CS)](composite-spectrum.md) which refers to the set of signals which has been previously assigned to the same feature based on a previous pre-processing of the data.

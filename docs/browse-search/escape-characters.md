@@ -1,0 +1,31 @@
+# Escape characters
+The user should escape some special characters if a regular expression wants to be used. Escaping characters must be done with \\ before the character to escape. Here is a list of special characters to escape:
+* \[
+* !
+* \#
+* $
+* %
+* &
+* (
+* )
+* \*
+* \+
+* ,
+* \\
+* \-
+* .
+* /
+* :
+* ;
+* <
+* =
+* \>
+* ?
+* @
+* ^
+* \`
+* {
+* |
+* }
+* ~
+* \]
